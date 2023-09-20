@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NotificationApplication.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NotificationApplication.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NotificationApplication.Adapter.dll": {}
+        }
+      },
+      "NotificationApplication.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NotificationApplication.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NotificationApplication.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NotificationApplication.Adapter/1.0.0": {
+      "type": "project",
+      "path": "../NotificationApplication.AdapterPattern/NotificationApplication.Adapter.csproj",
+      "msbuildProject": "../NotificationApplication.AdapterPattern/NotificationApplication.Adapter.csproj"
+    },
+    "NotificationApplication.Data/1.0.0": {
+      "type": "project",
+      "path": "../NotificationApplication.Data/NotificationApplication.Data.csproj",
+      "msbuildProject": "../NotificationApplication.Data/NotificationApplication.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "NotificationApplication.Adapter >= 1.0.0",
+      "NotificationApplication.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\manikumar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\manikumar\\Desktop\\ManiKumar_DesignPattern\\NotificationSystemApp\\NotificationApplication.StrategyPattern\\NotificationApplication.Strategy.csproj",
+      "projectName": "NotificationApplication.Strategy",
+      "projectPath": "C:\\Users\\manikumar\\Desktop\\ManiKumar_DesignPattern\\NotificationSystemApp\\NotificationApplication.StrategyPattern\\NotificationApplication.Strategy.csproj",
+      "packagesPath": "C:\\Users\\manikumar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\manikumar\\Desktop\\ManiKumar_DesignPattern\\NotificationSystemApp\\NotificationApplication.StrategyPattern\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\manikumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\manikumar\\Desktop\\ManiKumar_DesignPattern\\NotificationSystemApp\\NotificationApplication.AdapterPattern\\NotificationApplication.Adapter.csproj": {
+              "projectPath": "C:\\Users\\manikumar\\Desktop\\ManiKumar_DesignPattern\\NotificationSystemApp\\NotificationApplication.AdapterPattern\\NotificationApplication.Adapter.csproj"
+            },
+            "C:\\Users\\manikumar\\Desktop\\ManiKumar_DesignPattern\\NotificationSystemApp\\NotificationApplication.Data\\NotificationApplication.Data.csproj": {
+              "projectPath": "C:\\Users\\manikumar\\Desktop\\ManiKumar_DesignPattern\\NotificationSystemApp\\NotificationApplication.Data\\NotificationApplication.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

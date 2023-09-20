@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NotificationApplication.StrategyPattern/1.0.0": {
+        "dependencies": {
+          "NotificationApplication.AdapterPattern": "1.0.0",
+          "NotificationApplication.Data": "1.0.0"
+        },
+        "runtime": {
+          "NotificationApplication.StrategyPattern.dll": {}
+        }
+      },
+      "NotificationApplication.AdapterPattern/1.0.0": {
+        "runtime": {
+          "NotificationApplication.AdapterPattern.dll": {}
+        }
+      },
+      "NotificationApplication.Data/1.0.0": {
+        "runtime": {
+          "NotificationApplication.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NotificationApplication.StrategyPattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotificationApplication.AdapterPattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotificationApplication.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

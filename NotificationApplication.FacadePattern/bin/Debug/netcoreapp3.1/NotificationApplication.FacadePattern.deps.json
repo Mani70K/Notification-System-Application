@@ -1,0 +1,87 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NotificationApplication.FacadePattern/1.0.0": {
+        "dependencies": {
+          "NotificationApplication.Channels": "1.0.0",
+          "NotificationApplication.FactoryPattern": "1.0.0"
+        },
+        "runtime": {
+          "NotificationApplication.FacadePattern.dll": {}
+        }
+      },
+      "NotificationApplication.AdapterPattern/1.0.0": {
+        "runtime": {
+          "NotificationApplication.AdapterPattern.dll": {}
+        }
+      },
+      "NotificationApplication.Channels/1.0.0": {
+        "dependencies": {
+          "NotificationApplication.StrategyPattern": "1.0.0"
+        },
+        "runtime": {
+          "NotificationApplication.Channels.dll": {}
+        }
+      },
+      "NotificationApplication.Data/1.0.0": {
+        "runtime": {
+          "NotificationApplication.Data.dll": {}
+        }
+      },
+      "NotificationApplication.FactoryPattern/1.0.0": {
+        "dependencies": {
+          "NotificationApplication.Channels": "1.0.0"
+        },
+        "runtime": {
+          "NotificationApplication.FactoryPattern.dll": {}
+        }
+      },
+      "NotificationApplication.StrategyPattern/1.0.0": {
+        "dependencies": {
+          "NotificationApplication.AdapterPattern": "1.0.0",
+          "NotificationApplication.Data": "1.0.0"
+        },
+        "runtime": {
+          "NotificationApplication.StrategyPattern.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NotificationApplication.FacadePattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotificationApplication.AdapterPattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotificationApplication.Channels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotificationApplication.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotificationApplication.FactoryPattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotificationApplication.StrategyPattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
